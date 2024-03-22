@@ -69,6 +69,7 @@ dependencies {
   api "software.amazon.awssdk:aws-query-protocol:${versions.aws}"
   api "software.amazon.awssdk:sts:${versions.aws}"
   api "software.amazon.awssdk:netty-nio-client:${versions.aws}"
+  api "software.amazon.awssdk:identity-spi:${versions.aws}"
 
   api "org.reactivestreams:reactive-streams:${versions.reactivestreams}"
   api "org.apache.httpcomponents:httpclient:${versions.httpclient}"
